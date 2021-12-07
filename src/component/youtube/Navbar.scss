@@ -1,0 +1,49 @@
+.navbar-container{
+    top: 54px;
+    width: 248px;
+    background-color: #202020;
+    position: fixed;
+    height: 100vh;
+    transition: all 0.3s;
+    z-index: 1;
+    overflow: auto;
+    &.active{
+        left: 0px;
+    }
+    left: -248px;
+   // display: none;
+   hr {
+    border-top: 0.2px solid #8c8b8b;
+  }
+   ul{
+       padding: 0px;
+       
+       li {
+            &:hover{
+                background-color: black;
+                color: white;
+            }
+            padding: 0px 30px;
+           list-style-type: none;
+           margin: 10px 0px;
+           a{
+               text-decoration: none;
+               font-size: 16px;
+               color: white;
+               display: block;
+               padding: 10px 0px;
+               border-radius: 6px;
+               i{
+                   font-size: 24px;
+               }
+               span{
+                   padding: 0px 24px;
+               }
+            //    &.active{
+
+            //    }
+           }
+       }
+
+    }
+}
