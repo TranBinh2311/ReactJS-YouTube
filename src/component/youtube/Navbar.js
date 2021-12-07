@@ -7,21 +7,21 @@ const Navbar = ( {show} ) => {
             <ul>
                 <li>
                     <a href= "/" >
-                         <i class="fas fa-home"></i> 
+                         <i className="fas fa-home"></i> 
                          <span>Trang chủ</span> 
                     </a>
                 </li>
 
                 <li>
                     <a href= "/" >
-                         <i class="fas fa-compass"></i>
+                         <i className="fas fa-compass"></i>
                          <span>Khám phá</span> 
                     </a>
                 </li>
 
                 <li>
                     <a href= "/" >
-                         <i class="fab fa-youtube"></i>
+                         <i className="fab fa-youtube"></i>
                          <span>Kêng đăng ký</span> 
                     </a>
                 </li>
@@ -39,21 +39,21 @@ const Navbar = ( {show} ) => {
 
                 <li>
                     <a href= "/" >
-                        <i class="fas fa-history"></i>
+                        <i className="fas fa-history"></i>
                          <span>Video đã xem</span> 
                     </a>
                 </li>
 
                 <li>
                     <a href= "/" >
-                        <i class="fas fa-user-check"></i>
+                        <i classNames="fas fa-user-check"></i>
                          <span>Video của bạn</span> 
                     </a>
                 </li>
 
                 <li>
                     <a href= "/" >
-                        <i class="far fa-clock"></i>
+                        <i className="far fa-clock"></i>
                          <span>Video đã thích</span> 
                     </a>
                 </li>

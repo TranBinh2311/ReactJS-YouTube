@@ -8,7 +8,7 @@ const Youtube = () => {
     return (
         <div>
             <Header_Youtube/>
-            <Body/>
+            {/* <Body/> */}
         </div>
     )
 }
